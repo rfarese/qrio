@@ -208,7 +208,7 @@ module Qrio
           byte = read
           text << byte.chr
         end
-
+        binding.pry
         text.join
       end
     end
